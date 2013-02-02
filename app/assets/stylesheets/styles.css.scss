@@ -1,6 +1,10 @@
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
 @import 'bootstrap';
 
 @import 'bootstrap-responsive';
+
 
 body {
 	padding: 60px;
@@ -11,14 +15,19 @@ body {
 	font-size: 20px;
 	font-style: bold;
 	padding-bottom: 5px;
+
+}
+
+li  {
+	 color: black;
 }
 
 .footer {
 	float: right;
 }
 
-p {
-	color: black;
+.brand p {
+	color: blue;
 }
 
 
