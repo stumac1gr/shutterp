@@ -5,6 +5,7 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'simple_form'
 
+gem 'refinerycms'
 
 
 group :production do
