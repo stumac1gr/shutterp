@@ -1,5 +1,14 @@
 Shutterp::Application.routes.draw do
+  
+
+  resources :pins
+
+
+  devise_for :users
+
   get 'about' => 'pages#about'
+  get 'contact' => 'pages#contact'
+  get 'photos' => 'pages#photos'
 
   root :to => 'Pages#home' 
 
