@@ -7,6 +7,7 @@
 
 body {
 	padding: 60px;
+	background-color: #0f8790; 
 }
 
 .nav {
@@ -15,6 +16,11 @@ body {
 	font-style: bold;
 	padding-bottom: 5px;
 
+
+}
+
+.container {
+	color: white;
 }
 
 li  {
@@ -30,7 +36,7 @@ li  {
 
 }
 
-.brand link	 {
+.brand{
 	color: #FF9933;
 }
 
@@ -45,6 +51,19 @@ h2[class="welcome"]{
 	overflow: hidden; 
 	display: block;
 }
+
+p, h2 { 
+	color: black;
+}
+
+#form {
+	color: black;  
+}
+
+.hero-unit {
+	color: black;
+}
+
 
 
 
