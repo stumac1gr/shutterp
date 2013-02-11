@@ -88,7 +88,6 @@ GEM
     rake (10.0.3)
     rdoc (3.12)
       json (~> 1.4)
-    refinerycms (0.9.7.15)
     sass (3.2.5)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
@@ -125,7 +124,6 @@ DEPENDENCIES
   jquery-rails
   pg
   rails (= 3.2.11)
-  refinerycms
   sass-rails (~> 3.2.3)
   simple_form
   sqlite3
