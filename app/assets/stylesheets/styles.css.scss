@@ -1,14 +1,31 @@
-
+$navbarBrandColor: #FF6600;
 
 @import 'bootstrap';
 
 @import 'bootstrap-responsive';
 
 
+/* Typography */
+
 body {
 	padding: 60px;
-	background-color: #0f8790; 
+
 }
+
+p, h2 { 
+	color: black;
+}
+
+h2[class="welcome"]{
+	font-family: georgia; 
+	color: #999999 ; 
+	padding: 5px;
+	margin-bottom: 5px; 
+}
+
+
+
+/* Navigation*/
 
 .nav {
 	margin-top: auto; 
@@ -19,13 +36,14 @@ body {
 
 }
 
-.container {
-	color: white;
+.navbar-fixed-top {
+	background-color: white; 
 }
 
-li  {
-	 color: black;
-}
+
+
+/* Footer */
+
 
 .footer small {
 	margin: 0 auto;
@@ -33,36 +51,23 @@ li  {
 	font-family: georgia, sans-serif, serif; 
 	text-align: center; 
 
-
 }
 
-.brand{
-	color: #FF9933;
-}
-
-h2[class="welcome"]{
-	font-family: georgia; 
-	color: #999999 ; 
-	padding: 5px;
-	margin-bottom: 5px; 
-}
+/* Images */ 
 
 .rowone {
 	overflow: hidden; 
 	display: block;
 }
 
-p, h2 { 
-	color: black;
-}
+/* Form */ 
+
 
 #form {
 	color: black;  
 }
 
-.hero-unit {
-	color: black;
-}
+
 
 
 
